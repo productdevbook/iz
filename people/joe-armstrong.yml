@@ -1,0 +1,56 @@
+id: joe-armstrong
+name: Joe Armstrong
+also_known_as:
+  - joeerl
+
+born: "1950-12-27"
+died: "2019-04-20"
+
+summary: >-
+  Co-created Erlang at Ericsson in 1986 to make telephone exchanges that could
+  not be allowed to stop. The result was a way of building systems that survive
+  their own failures — let it crash, then recover — and it now runs underneath
+  a great deal of messaging, telecoms and banking infrastructure. He spent his
+  later years explaining it to anyone who would listen.
+
+work:
+  - name: Erlang
+    role: co-creator
+    url: https://www.erlang.org
+    note: >-
+      Designed with Robert Virding and Mike Williams at the Ericsson Computer
+      Science Laboratory. Released as open source in 1998.
+  - name: OTP
+    role: contributor
+    note: >-
+      The libraries and supervision trees that turned Erlang's ideas about
+      failure into something teams could build on.
+  - name: Programming Erlang
+    role: author
+    note: The book most people learned the language from.
+  - name: "Making reliable distributed systems in the presence of software errors"
+    role: author
+    note: His 2003 doctoral thesis, still widely read.
+
+links:
+  github: joearms
+  wikipedia: https://en.wikipedia.org/wiki/Joe_Armstrong_(programmer)
+  wikidata: Q1619282
+
+sources:
+  - url: https://www.2600hz.com/blog/a-tribute-to-joe-armstrong-father-of-erlang
+    title: A Tribute to Joe Armstrong, Father of Erlang
+    kind: project
+    publisher: 2600Hz
+    date: 2019-04-26
+  - url: https://gigazine.net/gsc_news/en/20190422-joe-armstrong-passed-away/
+    title: Joe Armstrong, creator of the programming language Erlang, has passed away
+    kind: news
+    publisher: GIGAZINE
+    date: 2019-04-22
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

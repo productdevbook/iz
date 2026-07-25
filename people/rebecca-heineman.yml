@@ -1,0 +1,64 @@
+id: rebecca-heineman
+name: Rebecca Heineman
+also_known_as:
+  - Burger Becky
+
+born: "1963"
+died: "2025-11-17"
+
+summary: >-
+  Won the first national videogame tournament held in the United States in 1980,
+  then spent forty-five years building the games themselves — co-founding
+  Interplay at twenty, designing The Bard's Tale III, and writing the ports that
+  brought Wolfenstein 3D, Baldur's Gate and Out of This World to platforms their
+  authors had not targeted. She was credited on sixty-seven games, and she was
+  one of the most visible transgender people in her industry.
+
+work:
+  - name: Interplay Entertainment
+    role: co-founder
+    note: >-
+      Founded in 1983 with Brian Fargo, Jay Patel and Troy Worrell, at the age
+      of twenty.
+  - name: "The Bard's Tale III: Thief of Fate"
+    role: designer and programmer
+    note: Released in 1988.
+  - name: Out of This World
+    role: programmer
+    note: >-
+      The 3DO and console conversions, work she was known for well beyond this
+      one title.
+  - name: Wolfenstein 3D
+    role: programmer
+    note: The Macintosh port.
+  - name: Contraband Entertainment
+    role: founder
+    note: Founded in 1999.
+  - name: Olde Sküül
+    role: co-founder and chief executive
+    note: Founded in 2013, with Jennell Jaquays.
+
+links:
+  github: burgerbecky
+  wikipedia: https://en.wikipedia.org/wiki/Rebecca_Heineman
+  wikidata: Q7301768
+
+sources:
+  - url: https://www.engadget.com/gaming/interplay-co-founder-rebecca-heineman-dies-133000414.html
+    title: Interplay co-founder Rebecca Heineman dies
+    kind: news
+    publisher: Engadget
+    date: 2025-11-18
+  - url: https://www.yahoo.com/news/articles/legendary-game-designer-programmer-space-001439558.html
+    title: >-
+      Legendary game designer, programmer, Space Invaders champion, and LGBTQ
+      trailblazer Rebecca Heineman has died
+    kind: news
+    publisher: PC Gamer
+    date: 2025-11-18
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
