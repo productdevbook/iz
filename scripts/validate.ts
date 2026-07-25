@@ -170,6 +170,44 @@ function checkPolicy(entry: Entry, file: string): void {
   }
 }
 
+const normalise = (s: string): string => s.toLowerCase().normalize('NFKD').replaceAll(/[^a-z ]/gu, '')
+
+/**
+ * Identifiers are the easiest thing in an entry to get wrong, because a wrong
+ * one still looks right: Q2510960 is a railway station, not Bram Moolenaar.
+ * Checks that each Wikidata item exists and that its label resembles the name
+ * on the entry. Requires network; skipped with --offline.
+ */
+async function checkWikidata(entry: Entry, file: string): Promise<void> {
+  const id = (entry.links as Record<string, string> | undefined)?.wikidata
+  if (!id) return
+
+  let label: string
+  try {
+    const response = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${id}.json`)
+    if (!response.ok) {
+      fail(file, `links.wikidata: ${id} could not be fetched (HTTP ${response.status})`)
+      return
+    }
+    const body = (await response.json()) as { entities: Record<string, { labels?: Record<string, { value: string }> }> }
+    label = Object.values(body.entities)[0]?.labels?.en?.value ?? ''
+  } catch {
+    fail(file, `links.wikidata: ${id} could not be checked — network error`)
+    return
+  }
+
+  const surname = normalise(entry.name ?? '').split(' ').at(-1) ?? ''
+  if (!normalise(label).includes(surname)) {
+    fail(
+      file,
+      `links.wikidata: ${id} is "${label}", which does not look like "${entry.name}". ` +
+        `Wikidata IDs must be looked up, never recalled.`,
+    )
+  }
+}
+
+const offline = process.argv.includes('--offline')
+
 const schema = (await Bun.file(join(peopleDir, '_schema.json')).json()) as JsonSchema
 
 const files = (await readdir(peopleDir))
@@ -186,6 +224,7 @@ for (const file of files) {
   }
   validate(entry, schema, '', file)
   checkPolicy(entry, file)
+  if (!offline) await checkWikidata(entry, file)
 }
 
 if (problems.length > 0) {

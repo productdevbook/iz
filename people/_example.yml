@@ -26,6 +26,7 @@ links:
   github: examplehandle
   website: https://example.org
   wikipedia: https://en.wikipedia.org/wiki/Example_Person
+  # Look the real ID up and confirm it is the right person before using it.
   wikidata: Q12345
 
 # Optional. Only with confirmed permission or a free licence — see POLICY.md.

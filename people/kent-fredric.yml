@@ -1,0 +1,53 @@
+# The sources agree he died in early February 2021 but none of them states an
+# exact date — the Gentoo announcement of 12 February says only "a few days
+# ago". Recorded as the year rather than guessing at a day.
+
+id: kent-fredric
+name: Kent Fredric
+also_known_as:
+  - kentnl
+
+died: "2021"
+
+summary: >-
+  Released more than 150 distributions of his own to CPAN and helped countless
+  other authors with theirs, some of his modules sitting far enough upstream
+  that thousands of projects depend on them without knowing. He also maintained
+  Gentoo's Perl support for years — the unglamorous, continuous work of keeping
+  a language usable on a distribution.
+
+work:
+  - name: CPAN distributions
+    role: author and maintainer
+    url: https://metacpan.org/author/KENTNL
+    note: >-
+      178 distributions listed under his name, many of them heavily depended
+      upon by the rest of the ecosystem.
+  - name: Gentoo Perl support
+    role: maintainer
+    url: https://www.gentoo.org
+    note: Kept Perl working on Gentoo for years.
+  - name: Rust on Gentoo
+    role: contributor
+    note: Active in the Rust project and in many other corners of Gentoo.
+
+links:
+  github: kentfredric
+
+sources:
+  - url: https://www.gentoo.org/news/2021/02/12/in-memory-of-kent-kentnl-fredric.html
+    title: In Memory of Kent "kentnl" Fredric
+    kind: project
+    publisher: Gentoo Linux
+    date: 2021-02-12
+  - url: https://blogs.perl.org/users/neilb/2021/04/kent-fredrics-cpan-distributions.html
+    title: Kent Fredric's CPAN distributions are available for adoption
+    kind: project
+    publisher: blogs.perl.org, by Neil Bowers
+    date: 2021-04-01
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
