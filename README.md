@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/cover.svg" alt="iz — a record of software people who have died, and what they left behind." width="820">
+</p>
+
 # iz
 
 *iz* is Turkish for **trace** — the mark something leaves behind.
