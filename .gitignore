@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+
+# Candidate research lists stay out of git.
+# A half-checked list of names in the history reads like a conclusion.
+candidates/
+*.candidates.json
+scratch/

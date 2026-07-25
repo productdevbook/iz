@@ -1,0 +1,58 @@
+# Copy this file to people/<id>.yml and fill it in.
+# The filename (without .yml) must equal the `id` field.
+# Read POLICY.md first — the source requirements are not a formality.
+
+id: example-person
+name: Example Person
+also_known_as:
+  - handle they were known by
+
+born: 1970-01-01
+died: 2024-01-01
+
+# One or two sentences. Who they were, what they built, why it mattered.
+# Write it the way you would want someone to write it about a person you loved.
+summary: >-
+  Wrote and maintained the thing that a great many other things quietly depend
+  on. Answered questions in the issue tracker for eleven years.
+
+work:
+  - name: Name of the project
+    role: creator
+    url: https://example.org/project
+    note: A short line on what it does or what they contributed.
+
+links:
+  github: examplehandle
+  website: https://example.org
+  wikipedia: https://en.wikipedia.org/wiki/Example_Person
+  wikidata: Q12345
+
+# Optional. Only with confirmed permission or a free licence — see POLICY.md.
+# photo:
+#   file: example-person.jpg
+#   credit: Photographer Name
+#   permission: cc-by
+#   permission_note: Where the permission or licence is recorded.
+
+# At least two, at least two of them primary, independent of each other.
+# kind: family | obituary | employer | project | news   -> primary
+#       reference                                        -> supporting only
+sources:
+  - url: https://example.org/announcement
+    title: Announcement from the project maintainers
+    kind: project
+    publisher: The Project
+    date: 2024-01-03
+    archived: https://web.archive.org/web/2024/https://example.org/announcement
+  - url: https://newspaper.example/obituaries/example-person
+    title: Example Person, 1970-2024
+    kind: obituary
+    publisher: Local Newspaper
+    date: 2024-01-05
+
+# Maintainers who opened every source link above and confirmed it.
+verified_by:
+  - maintainer-handle
+
+added: 2024-01-10

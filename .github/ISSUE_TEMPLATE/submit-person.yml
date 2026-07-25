@@ -1,0 +1,76 @@
+name: Suggest someone to remember
+description: Suggest a person for the list. Sources are required.
+title: "Add: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read [POLICY.md](../blob/main/POLICY.md) first.
+
+        An entry needs **at least two independent primary sources**. If you do
+        not have them yet, that is fine — open this issue anyway and say so,
+        and someone may be able to help find them. But the entry will not be
+        published until they exist.
+
+        **Please do not submit someone based on an inactive account.** Silence
+        is not death.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+
+  - type: input
+    id: died
+    attributes:
+      label: Date of death (as far as you know)
+      placeholder: YYYY-MM-DD, or just the year
+    validations:
+      required: true
+
+  - type: textarea
+    id: work
+    attributes:
+      label: What did they build?
+      description: Projects, contributions, the trace they left.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: |
+        One URL per line, with a note on what each is — family statement,
+        obituary, employer announcement, project announcement, news report.
+
+        Wikipedia and Wikidata do not count on their own. If that is where you
+        found it, follow the citation to the original and link that.
+      placeholder: |
+        https://... — announcement from the project maintainers
+        https://... — obituary, Local Newspaper, 2024-01-05
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Please confirm
+      options:
+        - label: I have opened every link above and each one says this person has died.
+          required: true
+        - label: I am not submitting this based on account inactivity.
+          required: true
+        - label: I understand this will be reviewed by a person before anything is published.
+          required: true
+
+  - type: input
+    id: relationship
+    attributes:
+      label: Did you know them?
+      description: Optional. Helps us understand the submission — it is not a requirement.
+    validations:
+      required: false

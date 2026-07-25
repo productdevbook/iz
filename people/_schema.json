@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/productdevbook/iz/people/_schema.json",
+  "title": "iz person entry",
+  "description": "One person remembered. Every published entry must satisfy this schema and the evidence rules in POLICY.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "died", "summary", "sources"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug, lowercase ASCII. Must match the filename.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name as the person was commonly known.",
+      "minLength": 1
+    },
+    "also_known_as": {
+      "type": "array",
+      "description": "Handles, pen names, or other names they were known by.",
+      "items": { "type": "string" }
+    },
+    "born": {
+      "type": "string",
+      "description": "ISO 8601 date, or year only when that is all that is known.",
+      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+    },
+    "died": {
+      "type": "string",
+      "description": "ISO 8601 date, or year only when that is all that is known.",
+      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+    },
+    "summary": {
+      "type": "string",
+      "description": "One or two sentences: who they were and what they built.",
+      "minLength": 20,
+      "maxLength": 600
+    },
+    "work": {
+      "type": "array",
+      "description": "What they made. The trace they left.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string", "description": "e.g. creator, maintainer, core contributor" },
+          "url": { "type": "string", "format": "uri" },
+          "note": { "type": "string", "maxLength": 300 }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Profiles belonging to the person. Attach only after the entry is verified.",
+      "properties": {
+        "github": { "type": "string", "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){0,38}$" },
+        "website": { "type": "string", "format": "uri" },
+        "wikipedia": { "type": "string", "format": "uri" },
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" }
+      }
+    },
+    "photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "credit", "permission"],
+      "description": "Included only with confirmed permission. See POLICY.md.",
+      "properties": {
+        "file": { "type": "string" },
+        "credit": { "type": "string" },
+        "permission": {
+          "type": "string",
+          "description": "The licence or the record of permission granted.",
+          "enum": ["cc0", "cc-by", "cc-by-sa", "public-domain", "family-permission", "copyright-holder-permission"]
+        },
+        "permission_note": { "type": "string", "description": "Where the permission is recorded." }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "Evidence of death. At least two, at least two of them primary, and independent of one another.",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "kind", "title"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string", "minLength": 1 },
+          "kind": {
+            "type": "string",
+            "description": "family | obituary | employer | project | news are primary. reference is supporting only and does not count toward the minimum.",
+            "enum": ["family", "obituary", "employer", "project", "news", "reference"]
+          },
+          "publisher": { "type": "string" },
+          "date": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
+          "archived": { "type": "string", "format": "uri", "description": "Archive copy, in case the original disappears." }
+        }
+      }
+    },
+    "languages": {
+      "type": "array",
+      "description": "Languages the entry has been translated into, beyond English.",
+      "items": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" }
+    },
+    "verified_by": {
+      "type": "array",
+      "description": "GitHub handles of maintainers who opened every source and confirmed it.",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "added": {
+      "type": "string",
+      "description": "Date this entry was merged.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    }
+  }
+}

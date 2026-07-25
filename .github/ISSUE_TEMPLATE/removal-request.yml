@@ -1,0 +1,53 @@
+name: Removal or correction request
+description: Ask us to remove or change an entry. Family requests are honoured immediately, without question.
+title: "Removal request: "
+labels: ["removal-request", "priority"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **If you are a family member, this is done. No justification is needed
+        and none will be asked for.**
+
+        You do not have to fill in any field below except the name. If you
+        would rather not write anything in public, email the maintainers
+        instead — the address is in the repository profile — and we will act on
+        it the same way.
+
+        We are sorry for your loss.
+
+  - type: input
+    id: person
+    attributes:
+      label: Whose entry is this about?
+      placeholder: Name as it appears in the list
+    validations:
+      required: true
+
+  - type: dropdown
+    id: what
+    attributes:
+      label: What would you like us to do?
+      options:
+        - Remove the entry entirely
+        - Remove the photograph only
+        - Reduce it to a name and dates only
+        - Correct something (described below)
+        - Something else
+    validations:
+      required: false
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Anything you would like to add
+      description: Entirely optional.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        We will act on this as soon as we see it and confirm here when it is
+        done. We will not publicly discuss the reason, and we will not ask you
+        to prove your relationship to the person.

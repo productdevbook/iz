@@ -1,0 +1,39 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - 'people/**'
+      - 'scripts/**'
+      - '*.json'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install
+        run: bun install --frozen-lockfile
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Typecheck
+        run: bun run typecheck
+
+      - name: Validate entries
+        run: bun run validate
+
+      - name: Reminder
+        if: success()
+        run: |
+          echo "::notice::Structure is valid. This does NOT verify the sources."
+          echo "::notice::A maintainer must open every source link before merging. See POLICY.md."

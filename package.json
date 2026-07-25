@@ -1,0 +1,19 @@
+{
+  "name": "iz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A record of software people who have died, and what they left behind.",
+  "type": "module",
+  "scripts": {
+    "validate": "bun run scripts/validate.ts",
+    "lint": "oxlint",
+    "typecheck": "tsc --noEmit",
+    "check": "bun run lint && bun run typecheck && bun run validate"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "oxlint": "^1.75.0",
+    "typescript": "^7.0.2",
+    "yaml": "^2.9.0"
+  }
+}
