@@ -1,0 +1,52 @@
+id: ian-murdock
+name: Ian Murdock
+
+# Neither source gives a birth date; both say only that he was 42. Left out
+# rather than inferred from an age.
+died: "2015-12-28"
+
+summary: >-
+  Started Debian in 1993 as a student, and wrote a manifesto arguing that a
+  distribution should be built openly by the people who use it rather than by a
+  company. Debian became one of the most widely deployed operating systems in
+  the world and the base that Ubuntu and a great many others are built from,
+  and its social contract still governs how the project treats its users.
+
+work:
+  - name: Debian
+    role: founder
+    url: https://www.debian.org
+    note: >-
+      Started in August 1993. The name joins Debra, his then-girlfriend, and
+      Ian.
+  - name: The Debian Manifesto
+    role: author
+    note: >-
+      Written in 1994. Argued for a distribution maintained openly, in the
+      interest of its users rather than a vendor.
+  - name: Project Indiana
+    role: chief architect
+    note: At Sun Microsystems, bringing a Linux-style experience to OpenSolaris.
+  - name: Linux Foundation
+    role: chief technology officer
+
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Ian_Murdock
+
+sources:
+  - url: https://bits.debian.org/2015/12/mourning-ian-murdock.html
+    title: Debian mourns the passing of Ian Murdock
+    kind: project
+    publisher: Bits from Debian
+    date: 2015-12-30
+  - url: https://www.theregister.com/2015/12/30/ian_murdock_debian_founder/
+    title: Debian Linux founder Ian Murdock dead at 42
+    kind: news
+    publisher: The Register
+    date: 2015-12-30
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
