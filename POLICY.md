@@ -92,6 +92,16 @@ is perfectly fine.
 ## Tone
 
 Entries state what the person built and what it meant. They do not speculate
-about their death, their health, or their private life. Cause of death is
-recorded only when the family has made it public and it is relevant to how the
-person is remembered — otherwise it is omitted entirely.
+about their death, their health, or their private life.
+
+**Cause of death is not recorded.** Not when it is public, not when it is in
+every obituary, not when the person is famous for it. This is a record of what
+people made, and how someone died is not what they made. A family reading an
+entry should find their person described by their work.
+
+The date of death is recorded because the entry cannot exist without it. That
+is the only detail about the death that belongs here.
+
+This extends to circumstances around a death — a legal case, an illness, a
+conflict, a hard last year. Where such a thing is genuinely inseparable from
+the person's public work, describe the work; do not narrate the ending.

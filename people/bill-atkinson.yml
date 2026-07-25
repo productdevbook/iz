@@ -1,0 +1,55 @@
+id: bill-atkinson
+name: Bill Atkinson
+
+born: "1951-03-17"
+died: "2025-06-05"
+
+summary: >-
+  Wrote QuickDraw, the graphics engine underneath the Lisa and the original
+  Macintosh, and much of what people recognise as a graphical interface came
+  from his hands — the menu bar, the selection lasso, the marching-ants
+  animation. Later built HyperCard, which let people who did not consider
+  themselves programmers build working software.
+
+work:
+  - name: QuickDraw
+    role: creator
+    note: >-
+      The graphics library the Lisa and the Macintosh drew everything with,
+      written to be fast enough for the hardware of the time.
+  - name: MacPaint
+    role: creator
+    note: Shipped with the first Macintosh in 1984.
+  - name: HyperCard
+    role: creator
+    note: >-
+      Released in 1987. Stacks of cards with scripting attached — an early
+      hypermedia system that a great many people used to make their first
+      program.
+  - name: Macintosh user interface
+    role: core contributor
+    note: >-
+      The menu bar, the selection lasso, the marching-ants selection animation,
+      and, with Steve Jobs, rounded rectangles.
+
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Bill_Atkinson
+  wikidata: Q92819
+
+sources:
+  - url: https://sixcolors.com/link/2025/06/4-bill-atkinson-dies-at-74/
+    title: Bill Atkinson dies at 74
+    kind: family
+    publisher: Six Colors, quoting the family's statement
+    date: 2025-06-07
+  - url: https://appleinsider.com/articles/25/06/07/bill-atkinson-pioneering-early-apple-engineer-dies-at-74
+    title: Bill Atkinson, pioneering early Apple engineer, dies at 74
+    kind: news
+    publisher: AppleInsider
+    date: 2025-06-07
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

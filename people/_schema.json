@@ -113,6 +113,10 @@
       "items": { "type": "string" },
       "minItems": 1
     },
+    "drafted_with_ai": {
+      "type": "boolean",
+      "description": "True when an AI assistant located the sources and drafted this entry. The human in verified_by is still accountable for having checked every source. Recorded openly so readers can weigh it."
+    },
     "added": {
       "type": "string",
       "description": "Date this entry was merged.",

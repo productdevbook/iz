@@ -1,0 +1,54 @@
+id: bram-moolenaar
+name: Bram Moolenaar
+
+born: "1961"
+died: "2023-08-03"
+
+summary: >-
+  Created and maintained Vim for over thirty years, shipping it as charityware
+  that directed its sponsorship income to AIDS orphans in Uganda. Vim became the
+  default editor on most Linux distributions, which puts his code on more
+  machines than almost any program outside the kernel itself.
+
+work:
+  - name: Vim
+    role: creator and maintainer
+    url: https://www.vim.org
+    note: >-
+      Began as an Amiga clone of vi in 1988, first released publicly in 1991,
+      and maintained by him until his death.
+  - name: International Child Care Fund Holland
+    role: founder
+    note: >-
+      Founded in 1995. Vim has asked its users to donate to it ever since,
+      which is what "charityware" meant to him.
+  - name: A-A-P
+    role: creator
+    note: A build and software distribution tool.
+  - name: Zimbu
+    role: creator
+    note: An experimental programming language.
+
+links:
+  github: brammool
+  website: https://www.moolenaar.net
+  wikipedia: https://en.wikipedia.org/wiki/Bram_Moolenaar
+  wikidata: Q2510960
+
+sources:
+  - url: https://groups.google.com/g/vim_announce/c/tWahca9zkt4
+    title: Message from the family of Bram Moolenaar
+    kind: family
+    publisher: vim_announce mailing list
+    date: 2023-08-05
+  - url: https://www.theregister.com/2023/08/07/bram_moolenaar_obituary/
+    title: Vim creator Bram Moolenaar dies aged 62
+    kind: news
+    publisher: The Register
+    date: 2023-08-07
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

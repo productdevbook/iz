@@ -1,0 +1,59 @@
+id: aaron-swartz
+name: Aaron Swartz
+
+born: "1986-11-08"
+died: "2013-01-11"
+
+summary: >-
+  Helped write the RSS 1.0 specification at fourteen and the Creative Commons
+  technical layer not long after, co-founded Reddit, and built the Open Library.
+  Nearly everything he made came back to one question — who is allowed to read
+  what — and he was twenty-six when he died.
+
+work:
+  - name: RSS 1.0
+    role: co-author
+    note: Co-wrote the specification as a teenager.
+  - name: Creative Commons
+    role: early technical contributor
+    url: https://creativecommons.org
+    note: Worked on the machine-readable layer of the licences.
+  - name: Reddit
+    role: co-founder
+    note: Through the merger of his company Infogami with Reddit in 2005.
+  - name: web.py
+    role: creator
+    url: https://webpy.org
+    note: A small Python web framework.
+  - name: Open Library
+    role: creator
+    url: https://openlibrary.org
+    note: One web page for every book ever published.
+  - name: Demand Progress
+    role: co-founder
+    note: >-
+      Campaigned against SOPA and PIPA, which is a large part of why neither
+      became law.
+
+links:
+  github: aaronsw
+  wikipedia: https://en.wikipedia.org/wiki/Aaron_Swartz
+  wikidata: Q3054604
+
+sources:
+  - url: https://www.cbsnews.com/news/online-activist-programmer-aaron-swartz-dies/
+    title: Online activist, programmer Aaron Swartz dies
+    kind: news
+    publisher: CBS News
+    date: 2013-01-13
+  - url: https://www.harvardmagazine.com/2013/01/rss-creator-aaron-swartz-dead-at-26
+    title: RSS Creator and Reddit cofounder Aaron Swartz dead at 26
+    kind: news
+    publisher: Harvard Magazine
+    date: 2013-01-14
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

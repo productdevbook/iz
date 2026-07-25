@@ -1,0 +1,55 @@
+id: dave-taht
+name: Dave Täht
+
+born: "1965"
+died: "2025-04-01"
+
+summary: >-
+  Spent fifteen years fighting bufferbloat — the excess latency that made video
+  calls stutter and games lag even on fast connections. The queueing algorithms
+  he co-wrote, FQ-CoDel and CAKE, are now default in the Linux kernel, OpenWrt,
+  macOS and iOS, which means most people have benefited from his work without
+  ever hearing his name.
+
+work:
+  - name: Bufferbloat Project
+    role: co-founder
+    url: https://www.bufferbloat.net
+    note: Started with Jim Gettys to name and then fix the problem.
+  - name: FQ-CoDel
+    role: co-author
+    note: >-
+      A queue management algorithm, now shipped by default across a very large
+      number of devices.
+  - name: CAKE
+    role: co-author
+    note: A later queueing discipline built on the same work.
+  - name: CeroWrt
+    role: creator
+    note: A research router firmware used to prove the fixes worked in practice.
+  - name: LibreQoS
+    role: contributor
+    url: https://libreqos.io
+    note: Traffic shaping for ISP networks.
+
+links:
+  github: dtaht
+  wikipedia: https://en.wikipedia.org/wiki/Dave_T%C3%A4ht
+
+sources:
+  - url: https://libreqos.com/news/in-loving-memory-of-dave
+    title: In loving memory of Dave Täht
+    kind: project
+    publisher: LibreQoS
+    date: 2025-04-01
+  - url: https://www.heise.de/en/news/This-code-is-our-code-Farewell-to-Bufferbloat-conqueror-Dave-Taeht-10337956.html
+    title: This code is our code — Farewell to bufferbloat conqueror Dave Täht
+    kind: news
+    publisher: heise online
+    date: 2025-04-02
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
