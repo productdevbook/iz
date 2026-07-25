@@ -1,0 +1,50 @@
+# The U-Boot announcement of 21 October 2022 says he died "last week" and LWN
+# reported it the following day; neither gives an exact date. Recorded to the
+# month rather than guessing at a day.
+
+id: wolfgang-denk
+name: Wolfgang Denk
+
+died: "2022-10"
+
+summary: >-
+  Started U-Boot and maintained it for two decades. It is the bootloader that
+  brings up an enormous share of embedded Linux devices — routers, set-top
+  boxes, industrial controllers, single-board computers — which means most
+  people have started his code without ever seeing it. Colleagues remember that
+  he turned down contracts from customers who wanted him to compromise on open
+  source.
+
+work:
+  - name: Das U-Boot
+    role: creator and long-time maintainer
+    url: https://www.denx.de/project/u-boot/
+    note: >-
+      Grew out of PPCBoot, itself built on the free 8xxROM codebase, and became
+      the de facto bootloader for embedded Linux.
+  - name: DENX Software Engineering
+    role: founder and managing director
+    url: https://www.denx.de
+    note: The company through which much of the U-Boot work was funded.
+
+links:
+  github: wdenx
+  website: https://www.denx.de
+
+sources:
+  - url: https://lists.u-boot-project.org/pipermail/u-boot/2022-October/497955.html
+    title: Wolfgang Denk
+    kind: project
+    publisher: U-Boot mailing list, announced by Stefano Babic
+    date: 2022-10-21
+  - url: https://lwn.net/Articles/912052/
+    title: Mourning Wolfgang Denk
+    kind: news
+    publisher: LWN.net
+    date: 2022-10-22
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

@@ -1,0 +1,58 @@
+id: near
+name: Near
+also_known_as:
+  - byuu
+
+died: "2021-06-27"
+
+summary: >-
+  Spent seventeen years building the most accurate Super Nintendo emulator
+  anyone had made, on the argument that "close enough" quietly loses things —
+  timing, edge cases, the exact behaviour a game depended on. bsnes was the
+  first SNES emulator to reach full compatibility, and the preservation work
+  around it, including decapping cartridge chips to read what was actually on
+  them, outlives the emulators themselves.
+
+work:
+  - name: bsnes
+    role: creator
+    url: https://github.com/bsnes-emu/bsnes
+    note: >-
+      Begun in 2004. The first Super Nintendo emulator to reach complete
+      compatibility, written for accuracy over speed at a time when that
+      tradeoff was unfashionable.
+  - name: higan
+    role: creator
+    note: >-
+      A multi-system emulator built on the same principles, covering the NES,
+      SNES, Game Boy line, Sega systems, PC Engine and more.
+  - name: Hardware preservation
+    role: contributor
+    note: >-
+      Documented and dumped cartridge coprocessors, including work that
+      required decapping chips, so the behaviour could be reproduced rather
+      than approximated.
+  - name: Bahamut Lagoon translation
+    role: translator
+    note: A retranslation of the 1996 Square title, finished shortly before their death.
+
+links:
+  github: byuu
+
+sources:
+  - url: https://www.shacknews.com/article/125372/higan-bsnes-author-snes-emulation-trailblazer-near-has-passed-away
+    title: Higan/bsnes author & SNES emulation trailblazer Near has passed away
+    kind: news
+    publisher: Shacknews
+    date: 2021-06-28
+  - url: https://www.pcgamesn.com/emulation/near-higan-bsnes
+    title: The developer behind bsnes and higan has reportedly died
+    kind: news
+    publisher: PCGamesN
+    date: 2021-06-30
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
