@@ -1,0 +1,48 @@
+id: ward-christensen
+name: Ward Christensen
+
+born: "1945-10-23"
+died: "2024-10-11"
+
+summary: >-
+  Wrote XMODEM in 1977 so that two people could send a file down a phone line
+  and know it arrived intact, and it stayed the way personal computers moved
+  files for the better part of a decade. The following winter, snowed in during
+  a Chicago blizzard, he and Randy Suess built CBBS — the first bulletin board
+  system, and the shape of every online community that came after it.
+
+work:
+  - name: XMODEM
+    role: creator
+    note: >-
+      Written in 1977. Split a file into checksummed packets over an analog
+      line, and became the standard way to move software between personal
+      computers.
+  - name: CBBS
+    role: co-creator
+    note: >-
+      Built with Randy Suess and brought online on 16 February 1978. The first
+      bulletin board system, and the ancestor of forums, message boards, and
+      most of what people now mean by an online community.
+
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Ward_Christensen
+  wikidata: Q7968985
+
+sources:
+  - url: https://www.legacy.com/us/obituaries/dailyherald/name/ward-christensen-obituary?id=56575027
+    title: Ward Christensen Obituary (1945 - 2024)
+    kind: obituary
+    publisher: Daily Herald, Rolling Meadows, Illinois
+    date: 2024-10
+  - url: https://gigazine.net/gsc_news/en/20241016-ward-christensen-bbs-inventr-passed-away
+    title: "Ward Christensen, co-inventor of the bulletin board system, dies at age 78"
+    kind: news
+    publisher: GIGAZINE
+    date: 2024-10-16
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

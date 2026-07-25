@@ -1,0 +1,60 @@
+id: jennell-jaquays
+name: Jennell Jaquays
+
+born: "1956-10-14"
+died: "2024-01-10"
+
+summary: >-
+  Designed dungeons so well that designers now use her name as a verb. Dark
+  Tower and Caverns of Thracia rejected the corridor-and-room march in favour of
+  loops, verticality and choices that could be approached from any direction —
+  the idea that a space should be explored rather than traversed. She carried
+  the same instinct into level design at id Software on Quake II and Quake III
+  Arena.
+
+work:
+  - name: Caverns of Thracia
+    role: designer
+    note: >-
+      A 1979 Judges Guild module, still cited as a model of non-linear dungeon
+      design.
+  - name: Dark Tower
+    role: designer
+    note: Published by Judges Guild in 1980.
+  - name: The Dungeoneer
+    role: co-founder
+    note: One of the earliest Dungeons & Dragons fanzines, started in 1977.
+  - name: Quake II and Quake III Arena
+    role: level designer
+    note: At id Software.
+  - name: Age of Empires III
+    role: contributor
+  - name: Halo Wars
+    role: contributor
+  - name: Coleco home arcade conversions
+    role: designer
+    note: Including versions of Pac-Man and Donkey Kong.
+  - name: Olde Sküül
+    role: co-founder
+    note: Founded in 2013, with Rebecca Heineman.
+
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Jennell_Jaquays
+
+sources:
+  - url: https://www.gamedeveloper.com/design/obituary-jennell-jaquays-game-designer-passed-away-at-age-67
+    title: "Obituary: Jennell Jaquays, game designer, died at age 67"
+    kind: obituary
+    publisher: Game Developer
+    date: 2024-01-10
+  - url: https://www.nme.com/news/gaming-news/influential-quake-and-dungeons-dragons-designer-jennell-jaquays-has-died-3569759
+    title: Influential Quake and Dungeons & Dragons designer Jennell Jaquays has died
+    kind: news
+    publisher: NME
+    date: 2024-01-12
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
