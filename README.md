@@ -46,6 +46,31 @@ taking down a photograph, or reducing an entry to just a name and dates.
 
 You do not need a reason. You do not need to justify anything.
 
+## Who is here
+
+Fourteen entries so far, each verified against two independent primary sources.
+
+| | |
+| --- | --- |
+| [Fred Brooks](people/fred-brooks.yml) | 1931–2022 · System/360, *The Mythical Man-Month* |
+| [Ward Christensen](people/ward-christensen.yml) | 1945–2024 · XMODEM, the first BBS |
+| [Joe Armstrong](people/joe-armstrong.yml) | 1950–2019 · Erlang |
+| [Bill Atkinson](people/bill-atkinson.yml) | 1951–2025 · QuickDraw, MacPaint, HyperCard |
+| [Jennell Jaquays](people/jennell-jaquays.yml) | 1956–2024 · Caverns of Thracia, Quake II |
+| [Bram Moolenaar](people/bram-moolenaar.yml) | 1961–2023 · Vim |
+| [Rebecca Heineman](people/rebecca-heineman.yml) | 1963–2025 · Interplay, The Bard's Tale III |
+| [Dave Täht](people/dave-taht.yml) | 1965–2025 · FQ-CoDel, CAKE, the bufferbloat work |
+| [Aaron Swartz](people/aaron-swartz.yml) | 1986–2013 · RSS, Creative Commons, Open Library |
+| [Ian Murdock](people/ian-murdock.yml) | died 2015 · Debian |
+| [Near](people/near.yml) | died 2021 · bsnes, higan |
+| [Kent Fredric](people/kent-fredric.yml) | died 2021 · CPAN, Gentoo's Perl support |
+| [Wolfgang Denk](people/wolfgang-denk.yml) | died 2022 · U-Boot |
+| [Robert Kaye](people/robert-kaye.yml) | died 2026 · MusicBrainz, MetaBrainz |
+
+Some entries carry no birth date, or only a year of death. Where the sources
+do not say, nothing is written down — a date inferred from an age, or guessed
+at from the week an announcement was posted, would be an invented record.
+
 ## Structure
 
 ```

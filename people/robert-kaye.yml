@@ -1,0 +1,53 @@
+id: robert-kaye
+name: Robert Kaye
+also_known_as:
+  - mayhem
+
+# Neither cited source gives a birth date, so none is recorded.
+died: "2026-02-21"
+
+summary: >-
+  Founded MusicBrainz in 2000 after the commercial CD database everyone relied
+  on was closed off, and spent twenty-five years making sure the replacement
+  stayed open. The result is a public music encyclopedia that music players,
+  streaming services and archives all quietly depend on, held by a foundation
+  rather than a company so it could not be taken away again.
+
+work:
+  - name: MusicBrainz
+    role: founder
+    url: https://musicbrainz.org
+    note: >-
+      An open music encyclopedia, built by its contributors and licensed so it
+      cannot be enclosed.
+  - name: MetaBrainz Foundation
+    role: founder and executive director
+    url: https://metabrainz.org
+    note: >-
+      The non-profit that holds MusicBrainz and its sibling projects, funded by
+      the companies that use the data.
+  - name: ListenBrainz
+    role: founder
+    url: https://listenbrainz.org
+    note: Listening histories kept by the listener rather than the platform.
+
+links:
+  github: mayhem
+
+sources:
+  - url: https://mixxx.org/news/2026-02-25-robert_kaye/
+    title: Robert Kaye, Mayhem, In Memoriam
+    kind: project
+    publisher: Mixxx
+    date: 2026-02-25
+  - url: https://lwn.net/Articles/1060189/
+    title: MetaBrainz mourns the loss of Robert Kaye
+    kind: news
+    publisher: LWN.net
+    date: 2026-02-25
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25

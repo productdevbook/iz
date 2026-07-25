@@ -1,0 +1,58 @@
+id: fred-brooks
+name: Frederick P. Brooks Jr.
+also_known_as:
+  - Fred Brooks
+
+born: "1931-04-19"
+died: "2022-11-17"
+
+summary: >-
+  Managed the IBM System/360 and the OS/360 that ran on it, then wrote The
+  Mythical Man-Month about how badly it had gone — the observation that adding
+  people to a late project makes it later, and that there is no single
+  technique that will make software an order of magnitude easier. Fifty years
+  on it is still the book handed to people who have just been made responsible
+  for a schedule.
+
+work:
+  - name: IBM System/360
+    role: project manager
+    note: >-
+      The first family of computers designed to be compatible with one another
+      across a range of sizes, which is where the phrase "computer
+      architecture" comes from.
+  - name: OS/360
+    role: manager
+    note: The operating system for the System/360, and the source of the book.
+  - name: The Mythical Man-Month
+    role: author
+    note: >-
+      Published in 1975. Essays on why software projects run late, including
+      "No Silver Bullet".
+  - name: UNC Department of Computer Science
+    role: founder
+    url: https://cs.unc.edu
+    note: >-
+      Founded in 1964, the second free-standing computer science department in
+      the United States to grant doctorates. He taught there for decades.
+
+links:
+  wikipedia: https://en.wikipedia.org/wiki/Fred_Brooks
+
+sources:
+  - url: https://cs.unc.edu/news-article/remembering-department-founder-dr-frederick-p-brooks-jr/
+    title: Remembering Department Founder Dr. Frederick P. Brooks, Jr.
+    kind: employer
+    publisher: UNC Department of Computer Science
+    date: 2022-11
+  - url: https://spectrum.ieee.org/frederick-brooks-jr-obit
+    title: Paying Tribute to Computer Science Pioneer Frederick Brooks, Jr.
+    kind: obituary
+    publisher: IEEE Spectrum
+    date: 2022-12-09
+
+verified_by:
+  - productdevbook
+
+drafted_with_ai: true
+added: 2026-07-25
